@@ -48,7 +48,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #007bff; /* Changement de couleur au survol */
+    color: #067af7; /* Changement de couleur au survol */
 }
 
 /* --- Section Contenu --- */
@@ -64,8 +64,9 @@ h4 {
 
 footer {
     background-color: #8af0f7; /* Arrière-plan du pied de page */
-    color: rgb(0, 0, 0); /* Texte en blanc */
+    color:#2C3E50; /* Texte en blanc */
     text-align: center;
     padding: 15px 0;
     margin-top: auto; /* Pousse le footer en bas de la page */
 }
+
