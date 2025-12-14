@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUPE N°7 - NESLINE</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    <!-- Styles supplémentaires pour embellir -->
+    <style>
+        /* Styles qui respectent mais embellissent les consignes */
+        
+        /* Header conforme mais amélioré */
+        header {
+            background: linear-gradient(135deg, #2C3E50, #4A6491);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        /* Navigation conforme mais stylisée */
+        nav {
+            background-color: #34495E;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        nav a:hover {
+            background-color: #1ABC9C;
+            transform: translateY(-2px);
+        }
+        
+        /* Contenu principal */
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        /* Sections personnelles */
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid #1ABC9C;
+        }
+        
+        .section h2 {
+            color: #2C3E50;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
+        
+        /* Footer conforme mais amélioré */
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+            font-weight: 500;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ===== HEADER (CONFORME AUX CONSIGNES) ===== -->
+    <header>
+        <h1>GROUPE N - NESLINE</h1>
+        <p>Membre du projet collaboratif Git/GitHub</p>
+    </header>
+    
+    <!-- ===== NAVIGATION (CONFORME AUX CONSIGNES) ===== -->
+    <nav>
+        <ul>
+            <li><a href="index.html">← Retour page principale</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#contribution">Ma contribution</a></li>
+            <li><a href="#competences">Compétences</a></li>
+        </ul>
+    </nav>
+    
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <main>
+        <!-- Section 1: Présentation -->
+        <section id="presentation" class="section">
+            <h2>👋 À propos de moi</h2>
+            <p>Salut ! Je suis <strong>Nesline</strong>, membre du <strong>Groupe N°7</strong>. Passionnée par le développement web et les technologies innovantes, je participe activement à ce projet collaboratif qui nous permet de maîtriser Git et GitHub.</p>
+            
+            <div style="display: flex; gap: 2rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>🎓 Mon parcours</h3>
+                    <p>Étudiante en Génie Logiciel, je me spécialise dans la création d'interfaces utilisateur modernes et accessibles.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>🎯 Mes objectifs</h3>
+                    <p>Acquérir une solide expérience en travail collaboratif et contribuer à des projets open source.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 2: Ma contribution Git -->
+        <section id="contribution" class="section">
+            <h2>🚀 Ma contribution au projet Git</h2>
+            
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                <h3>📊 Mon workflow Git :</h3>
+                <ol style="margin: 1rem 0; padding-left: 1.5rem;">
+                    <li><strong>Clonage</strong> du dépôt principal</li>
+                    <li><strong>Création d'une branche</strong> pour mes modifications</li>
+                    <li><strong>Développement</strong> de ma page personnelle</li>
+                    <li><strong>Commits réguliers</strong> avec messages clairs</li>
+                    <li><strong>Pull Request</strong> vers la branche principale</li>
+                </ol>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+                <div style="text-align: center; padding: 1rem; background: #e8f4f8; border-radius: 8px;">
+                    <div style="font-size: 2rem;">🌿</div>
+                    <h4>Branches créées</h4>
+                    <p style="font-size: 1.5rem; font-weight: bold; color: #2C3E50;">1</p>
+                </div>
+                <div style="text-align: center; padding: 1rem; background: #e8f4f8; border-radius: 8px;">
+                    <div style="font-size: 2rem;">💾</div>
+                    <h4>Commits</h4>
+                    <p style="font-size: 1.5rem; font-weight: bold; color: #2C3E50;">5+</p>
+                </div>
+                <div style="text-align: center; padding: 1rem; background: #e8f4f8; border-radius: 8px;">
+                    <div style="font-size: 2rem;">🔀</div>
+                    <h4>Pull Requests</h4>
+                    <p style="font-size: 1.5rem; font-weight: bold; color: #2C3E50;">1</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 3: Compétences -->
+        <section id="competences" class="section">
+            <h2>💻 Compétences techniques</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                <div style="background: #f0f7ff; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #3498db;">
+                    <h3>HTML5 / CSS3</h3>
+                    <p>Création de pages web sémantiques, accessibles et responsives.</p>
+                    <div style="background: #ecf0f1; height: 8px; border-radius: 4px; margin-top: 1rem;">
+                        <div style="background: #3498db; width: 90%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                </div>
+                
+                <div style="background: #f0f7ff; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #2ecc71;">
+                    <h3>Git & GitHub</h3>
+                    <p>Versionning, branches, merges et collaboration d'équipe.</p>
+                    <div style="background: #ecf0f1; height: 8px; border-radius: 4px; margin-top: 1rem;">
+                        <div style="background: #2ecc71; width: 85%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                </div>
+                
+                <div style="background: #f0f7ff; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #9b59b6;">
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS pour des interfaces modernes et responsives.</p>
+                    <div style="background: #ecf0f1; height: 8px; border-radius: 4px; margin-top: 1rem;">
+                        <div style="background: #9b59b6; width: 80%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 4: Ce que j'ai appris -->
+        <section class="section" style="background: #e8f6f3; border-left-color: #1abc9c;">
+            <h2>📚 Ce que ce projet m'a appris</h2>
+            <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                <li>L'importance du travail collaboratif avec Git</li>
+                <li>La gestion des conflits lors des merges</li>
+                <li>L'organisation d'un projet en équipe</li>
+                <li>Les bonnes pratiques de commit</li>
+                <li>Le processus de revue de code via Pull Requests</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- ===== FOOTER (CONFORME AUX CONSIGNES) ===== -->
+    <footer>
+        <p>Copyright tous droits réservés Groupe N</p>
+        <p>Projet réalisé dans le cadre du cours "Versioning avec Git et GitHub"</p>
+        <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">
+            Page créée par Nesline | Dernière mise à jour : 
+            <span id="current-date"></span>
+        </p>
+    </footer>
+    
+    <script>
+        // Date actuelle automatique
+        document.getElementById('current-date').textContent = 
+            new Date().toLocaleDateString('fr-FR', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+        
+        // Navigation smooth
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
