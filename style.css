@@ -1,63 +1,77 @@
-/* Style.css - Version de base pour tout le projet */
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-/* Styles communs pour toutes les pages */
-header, footer {
-    background-color: #2C3E50;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-nav {
-    background-color: #34495E;
-    padding: 0.5rem 0;
-}
-
-nav ul {
-    list-style: none;
+    font-family: Arial, sans-serif; /* Police de base */
+    margin: 0; /* Supprime les marges par défaut du body */
+    padding: 0;
+    min-height: 100vh; /* Assure que le body prend au moins toute la hauteur de la fenêtre */
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Organise les éléments enfants verticalement */
 }
 
-nav li {
-    margin: 0 1rem;
+/* --- Section Navigation --- */
+
+.navbar {
+    background-color: #8af0f7; /* Arrière-plan de la barre de navigation */
+    padding: 15px 20px;
+    border-bottom: 2px solid #ddd;
+    display: flex; /* Active Flexbox */
+    flex-direction: column; /* Empile les enfants (image div et liens div) verticalement */
+    align-items: center; /* Centre les enfants horizontalement dans le conteneur .navbar */
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+.image {
+    width: 100px; /* Taille de l'image du logo/profil */
+    height: 100px;
+    border-radius: 50%; /* Rend l'image circulaire */
+    object-fit: cover;
+    margin-bottom: 10px; /* Espace sous l'image avant les liens */
+    margin-top: 10px;
 }
 
-main {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+.navigation {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Active Flexbox pour les éléments de liste */
+    /* flex-wrap: wrap;  Utile si les liens sont nombreux et doivent passer à la ligne */
+    justify-content: center; /* *Centre les liens horizontalement* */
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    nav li {
-        margin: 0.5rem 0;
-    }
+.nav-item {
+    margin: 0 15px; /* Espace raisonnable entre les liens (15px de chaque côté) */
 }
+
+.nav-link {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #2C3E50; /* Couleur du texte des liens */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease; /* Ajoute une transition pour l'effet de survol */
+}
+
+.nav-link:hover {
+    color: #067af7; /* Changement de couleur au survol */
+}
+
+/* --- Section Contenu --- */
+
+h4 {
+    text-align: center; /* Centre le titre du contenu */
+    padding: 40px 20px;
+    flex-grow: 1; /* Permet au contenu de prendre tout l'espace vertical restant */
+    color: #555;
+}
+
+/* --- Section Pied de Page --- */
+
+footer {
+    background-color: #8af0f7; /* Arrière-plan du pied de page */
+    color:#2C3E50; /* Texte en blanc */
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto; /* Pousse le footer en bas de la page */
+}
+
+
 
 /* Style général */
 /* body {
