@@ -24,6 +24,7 @@ body {
     border-radius: 50%; /* Rend l'image circulaire */
     object-fit: cover;
     margin-bottom: 20px; /* Espace sous l'image avant les liens */
+    margin-top: 10px;
 }
 
 .navigation {
@@ -70,3 +71,26 @@ footer {
     margin-top: auto; /* Pousse le footer en bas de la page */
 }
 
+
+
+/* Style général */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Section accueil */
+.hero-section {
+    /* background-color: #7ec9c3; */
+    padding: 80px 0;
+    color: #000;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+}
+
+/* Cartes */
+.card {
+    margin-bottom: 20px;
+}
