@@ -70,3 +70,33 @@ footer {
     margin-top: auto; /* Pousse le footer en bas de la page */
 }
 
+.profile-img-container {
+    text-align: center; /* Centrer la photo horizontalement sur mobile */
+}
+
+.profile-img {
+    width: 280px; /* Taille fixe pour la photo (à ajuster) */
+    height: 280px;
+    object-fit: cover; /* Assure que l'image remplit le cercle sans déformation */
+    border-radius: 50%; /* Rendre l'image circulaire */
+    border: 5px solid var(--bleu-fonce); /* Bordure accentuée en bleu foncé */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre douce */
+}
+
+.orange-line{
+    border: none;
+    border-top: 10px solid #8af0f7;
+    color:black;
+    overflow: visible;
+    text-align: center;
+    height: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+.orange-line:before{
+    content: "contributions";
+    background-color:white;
+    padding: 0 10px;
+    position: relative;
+    top: -33px;
+}
