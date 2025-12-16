@@ -19,11 +19,12 @@ body {
 }
 
 .image {
-    width: 90px; /* Taille de l'image du logo/profil */
-    height: 90px;
+    width: 100px; /* Taille de l'image du logo/profil */
+    height: 100px;
     border-radius: 50%; /* Rend l'image circulaire */
     object-fit: cover;
-    margin-bottom: 20px; /* Espace sous l'image avant les liens */
+    margin-bottom: 10px; /* Espace sous l'image avant les liens */
+    margin-top: 10px;
 }
 
 .navigation {
@@ -32,7 +33,7 @@ body {
     margin: 0;
     display: flex; /* Active Flexbox pour les éléments de liste */
     /* flex-wrap: wrap;  Utile si les liens sont nombreux et doivent passer à la ligne */
-    justify-content: center; /* **Centre les liens horizontalement** */
+    justify-content: center; /* *Centre les liens horizontalement* */
 }
 
 .nav-item {
@@ -100,3 +101,42 @@ footer {
     position: relative;
     top: -33px;
 }
+
+
+/* Style général */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Section accueil */
+.hero-section {
+    /* background-color: #7ec9c3; */
+    padding: 80px 0;
+    color: #000;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+}
+
+/* Cartes */
+.card {
+    margin-bottom: 20px;
+}
+
+.section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid #1ABC9C;
+        }
+        
+        .section h2 {
+            color: #2C3E50;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
